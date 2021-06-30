@@ -12,3 +12,11 @@ addons:
 
 notifications:
   slack: personalproje-ejg9749:38EcvtPJV2ddzGDUFTUPfbJ7
+
+deploy:
+  provider: heroku
+  api_key: 
+    secure: a3593154-7d88-44b5-9026-60bc9c48ee42
+  app: insw-cicd
+  on:
+    branch: main
