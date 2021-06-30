@@ -8,7 +8,4 @@ addons:
   sonarcloud:
     organization: "alejozavala"
     token:
-      secure: "SONAR_TOKEN"
-
-script:
-  - sonar-scanner
+      secure: "f7147babd8f58dc59c4e7e829a8063d356388ba0"
