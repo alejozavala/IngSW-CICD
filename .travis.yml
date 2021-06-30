@@ -9,3 +9,6 @@ addons:
     organization: "alejozavala"
     token:
       secure: "f7147babd8f58dc59c4e7e829a8063d356388ba0"
+
+notifications:
+  slack: personalproje-ejg9749:38EcvtPJV2ddzGDUFTUPfbJ7
