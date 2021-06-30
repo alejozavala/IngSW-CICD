@@ -4,11 +4,11 @@ var calculator = require("../app/main");
 describe("Calculadora - Test", function () {
   describe("Testeando operaciones", function () {
     it("Testing de operacion suma", function () {
-      expect(calculator.sum(1, 1)).to.equal(1 + 1);
+      expect(calculator.sum(1, 1)).to.equal(2);
     });
 
     it("Testing de operacion resta", function () {
-      expect(calculator.resta(1, 1)).to.equal(1 - 1);
+      expect(calculator.resta(1, 1)).to.equal(0);
     });
   });
 });
