@@ -5,6 +5,10 @@ jdk:
   - oraclejdk8
 
 addons:
-  sonarcloud: true
+  sonarcloud:
+    organization: "alejozavala"
+    token:
+      secure: "SONAR_TOKEN"
+
 script:
-  - sonar-scanner -Dsonar.login=$SONAR_TOKEN -Dsonar.organization=alejozavala -Dsonar.projectKey=alejozavala_IngSW-CICD -Dsonar.sources='./app/main.js'
+  - sonar-scanner
