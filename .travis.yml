@@ -15,8 +15,7 @@ notifications:
 
 deploy:
   provider: heroku
-  api_key: 
-    secure: a3593154-7d88-44b5-9026-60bc9c48ee42
+  api_key: a3593154-7d88-44b5-9026-60bc9c48ee42
   app: insw-cicd
   on:
     branch: main
