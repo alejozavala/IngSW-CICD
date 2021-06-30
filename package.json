@@ -1,0 +1,19 @@
+{
+  "name": "ingsw-cicd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejozavala/IngSW-CICD.git"
+  },
+  "author": "Alejo Zavala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alejozavala/IngSW-CICD/issues"
+  },
+  "homepage": "https://github.com/alejozavala/IngSW-CICD#readme"
+}
